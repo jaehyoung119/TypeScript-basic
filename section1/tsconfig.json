@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    //타입 -> 자바스크립트 변환시 상세한 설정 조정
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
+    "outDir": "dist", //컴파일 코드 영역 분리
+    "strict": true, // 코드엄격한 분석 ex 메개변수 타입 명확
+    "moduleDetection": "force",
+    "skipLibCheck": true
+  },
+  "ts-node": {
+    "esm": true
+  },
+  "include": ["src"]
+}
